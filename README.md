@@ -4,12 +4,15 @@ A command line program in python to process the log file and return the most act
 
 ### Execution
 
-Command: python3 most_active_cookie.py your_csv_file -d yyyy-mm-dd
-Sample command: python3 most_active_cookie.py cookie_log.csv -d 2018-12-09
+Command:
+>python3 most_active_cookie.py your_csv_file -d yyyy-mm-dd
+
+Sample command:
+>python3 most_active_cookie.py cookie_log.csv -d 2018-12-09
 
 ### Testing
 To execute the unit/integration tests, navigate to the root directory and run the following command:
-python3 -m unittest
+>python3 -m unittest
 
 ### Sample CSV
 
@@ -24,5 +27,4 @@ python3 -m unittest
 |fbcn5UAVanZf6UtG|2018-12-08T09:30:00+00:00|
 |4sMM2LxV07bPJzwf|2018-12-07T23:30:00+00:00|
 
-Output for Sample CSV:
-AtY0laUfhglK3lC7
+Output for Sample CSV: AtY0laUfhglK3lC7
